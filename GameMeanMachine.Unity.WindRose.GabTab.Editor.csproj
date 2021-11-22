@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f12c1578-739d-aec3-161a-81a153d5db4f}</ProjectGuid>
+    <ProjectGuid>{b90e256c-ad57-2fd2-a274-b8fc8dfb0e0e}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -289,19 +289,19 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -652,29 +652,29 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="GameMeanMachine.Unity.WindRose.GabTab.Runtime.csproj">
-      <Project>{b0af9989-586e-b447-57af-dc5973638aff}</Project>
+      <Project>{04374a59-3214-121c-f094-e35bc6dc98b0}</Project>
       <Name>GameMeanMachine.Unity.WindRose.GabTab.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
-      <Project>{cd769f9d-19d6-9cf1-5467-6bfa081f20f0}</Project>
+      <Project>{c1edfb38-115a-7afa-ac7c-5520c2ac4f47}</Project>
       <Name>AlephVault.Unity.MenuActions.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{72b34d43-d357-6681-c59c-e4f56ce98d72}</Project>
+      <Project>{6802bd78-939d-29c3-1be2-097e1e4fd3a2}</Project>
       <Name>AlephVault.Unity.Layout.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

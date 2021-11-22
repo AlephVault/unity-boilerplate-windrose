@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{61fbdc23-cc9b-0ee1-85d4-fb2a3df6e8eb}</ProjectGuid>
+    <ProjectGuid>{6d0e8ba1-2390-f081-15a2-5fa77fb451b3}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,14 +52,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\Entities\Objects\Bags\StandardBag.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\InventoryMapSizedPositioningManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\DropLayer.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\Drops\SimpleDropContainerRenderer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\InventoryDropLayerRenderingManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\Entities\Objects\Bags\StandardBag.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\UI\Inventory\BasicStandardBagControl.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\InventoryMapSizedPositioningManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\InventoryDropLayerRenderingListener.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\UI\Inventory\BasicStandardInventoryLink.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\DropLayer.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\Authoring\Behaviours\World\Layers\Drop\InventoryDropLayerRenderingManagementStrategy.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-backpack-plugin\Runtime\GameMeanMachine.Unity.WindRose.BackPack.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -293,16 +293,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -650,31 +650,31 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
-      <Project>{2496768a-c44d-95d2-295e-73397ab17b9a}</Project>
+      <Project>{78415b5d-f2f4-47e2-54b3-8101bfaae53b}</Project>
       <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="GameMeanMachine.Unity.BackPack.Runtime.csproj">
-      <Project>{b145e1d1-4ab3-ef4e-0c83-9f08e2635d24}</Project>
+      <Project>{e650e753-5da5-07aa-5a7a-7dcbeec4465f}</Project>
       <Name>GameMeanMachine.Unity.BackPack.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{5905de19-28fa-8926-ccff-902de739face}</Project>
+      <Project>{6d50c1ea-9a3a-43c1-46c6-c23b98849279}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{72b34d43-d357-6681-c59c-e4f56ce98d72}</Project>
+      <Project>{6802bd78-939d-29c3-1be2-097e1e4fd3a2}</Project>
       <Name>AlephVault.Unity.Layout.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
-      <Project>{b08cf7ee-0755-7c50-8ae7-c438eb3eb07c}</Project>
+      <Project>{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}</Project>
       <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

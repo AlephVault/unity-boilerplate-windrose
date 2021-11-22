@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7a558bbc-385d-f12c-e9e1-56fb7418aa2d}</ProjectGuid>
+    <ProjectGuid>{83f4b295-e54b-fc86-12f6-badf4c77ceae}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,19 +52,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\Interactor.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\DefaultLists\SimpleStringModel.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\InteractorsManager.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\NullInteractor.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveMessageContent.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\ListInteractor.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Hideable.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Types\Exception.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\TextInteractor.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\NullInteractor.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\ListInteractor.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\InteractorsManager.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveMessage.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\Interactor.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveInterface.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\ButtonsInteractor.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\Interactors\DefaultLists\SimpleStringListInteractor.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveMessage.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveInterface.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\Authoring\Behaviours\InteractiveMessageContent.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-gabtab\Runtime\GameMeanMachine.Unity.GabTab.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -298,16 +298,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -655,19 +655,19 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{5905de19-28fa-8926-ccff-902de739face}</Project>
+      <Project>{6d50c1ea-9a3a-43c1-46c6-c23b98849279}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
-      <Project>{b08cf7ee-0755-7c50-8ae7-c438eb3eb07c}</Project>
+      <Project>{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}</Project>
       <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

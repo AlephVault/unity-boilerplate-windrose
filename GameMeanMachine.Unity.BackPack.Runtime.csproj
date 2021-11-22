@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b145e1d1-4ab3-ef4e-0c83-9f08e2635d24}</ProjectGuid>
+    <ProjectGuid>{e650e753-5da5-07aa-5a7a-7dcbeec4465f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,64 +52,64 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\StackStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewSelectedItemLabel.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\InventorySinglePositioningManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\StandardInventoryView.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\InventoryStaticRenderingManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemIntegerQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\Position.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireRenderingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Standard\RenderingListener.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\RenderingStrategies\StackRenderingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\UsageStrategies\StackNullUsageStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\Item.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\UsageStrategies\StackUsageStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackIntegerQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\ItemRegistry.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\Inventory1DIndexedStaticRenderingManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewPrevButton.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemQuantityLabel.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\InventoryStandardRenderingManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\RenderingStrategies\StackSimpleRenderingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\BaseStandardRenderingListener.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\InventoryInfinite1DIndexedSpatialManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewItem.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\SerializedInventory.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackFloatQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireUsageStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\SpatialStrategies\ItemSpatialStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewNextButton.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemStaticRenderingStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\InventoryFinite1DIndexedSpatialManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\SpatialStrategies\Item1DIndexedSpatialStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\InventoryManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\PositioningStrategies\InventoryPositioningManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\ItemStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemSelectionGlow.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryView.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackUnstackedQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\UsageStrategies\ItemUsageStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewPageLabel.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemFloatQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\UsageStrategies\ItemNullUsageStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\InventoryRenderingManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemRenderingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemIcon.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\UsageStrategies\InventoryUsageManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\Inventory1DIndexedSpatialManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\InventorySpatialManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\UsageStrategies\InventoryNullUsageManagementStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\StandardInventory.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\UsageStrategies\StackNullUsageStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\UsageStrategies\StackUsageStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\Inventory1DIndexedStaticRenderingManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\ItemRegistry.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\SpatialStrategies\ItemSpatialStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\InventoryManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemUnstackedQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\Stack.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Standard\RenderingBroadcaster.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemIconTextRenderingStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\InventoryManagementStrategyHolder.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireSpatialStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireRenderingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\RenderingStrategies\StackSimpleRenderingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\ItemStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemRenderingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewSelectedItemLabel.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewPrevButton.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\BaseStandardRenderingListener.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\InventoryInfinite1DIndexedSpatialManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\PositioningStrategies\InventoryPositioningManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\RenderingStrategies\StackRenderingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\Item.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\SpatialStrategies\Item1DIndexedSpatialStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Standard\RenderingBroadcaster.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\StackStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\InventorySinglePositioningManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\InventoryStaticRenderingManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemStaticRenderingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\UsageStrategies\ItemUsageStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Standard\RenderingListener.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackFloatQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireUsageStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewNextButton.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewItem.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryView.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\Stack.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\InventoryStandardRenderingManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\SerializedInventory.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\RenderingStrategies\InventoryRenderingManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemSelectionGlow.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\InventorySpatialManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\UsageStrategies\InventoryNullUsageManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewPageLabel.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\Position.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackIntegerQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\Standard\StandardInventory.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemIntegerQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemIcon.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\UsageStrategies\InventoryUsageManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\ItemParts\BasicStandardInventoryViewItemQuantityLabel.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\UsageStrategies\ItemNullUsageStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\QuantifyingStrategies\ItemFloatQuantifyingStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\Inventory\ManagementStrategies\SpatialStrategies\Inventory1DIndexedSpatialManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RenderingStrategies\ItemIconTextRenderingStrategy.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\GameMeanMachine.Unity.BackPack.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -343,16 +343,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -700,19 +700,19 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My WindRose Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{5905de19-28fa-8926-ccff-902de739face}</Project>
+      <Project>{6d50c1ea-9a3a-43c1-46c6-c23b98849279}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{72b34d43-d357-6681-c59c-e4f56ce98d72}</Project>
+      <Project>{6802bd78-939d-29c3-1be2-097e1e4fd3a2}</Project>
       <Name>AlephVault.Unity.Layout.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
