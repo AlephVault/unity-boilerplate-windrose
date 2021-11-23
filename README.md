@@ -10,7 +10,7 @@ The current status is meant to be used in Unity 2020.3 or better. The upper vers
 Dependencies versioning and status
 ----------------------------------
 
-So far this project relies on a set of packages that I could consider, at best, in beta status. These packages are not officially released and they are called 0.0.1 or, at most, 0.0.2. A proper versioning has to be done. The referenced packages exist into this organization and must be cloned individually besides this boilerplate (i.e. as a sibling directory). They are:
+So far this project relies on a set of packages that I could consider, at best, in beta status. These packages are not officially released and they are tagged 0.0.1. The referenced packages exist into this organization and must be cloned individually besides this boilerplate (i.e. as a sibling directory). They are:
 
  - com.alephvault.unity.support: [Clone it](http://github.com/AlephVault/unity-support).
  - com.alephvault.unity.support.generic: [Clone it](http://github.com/AlephVault/unity-support-generic).
@@ -23,5 +23,3 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.gamemeanmachine.unity.windrose: [Clone it](http://gitlab.com/gamemeanmachine/unity-windrose).
  - com.gamemeanmachine.unity.windrose-backpack: [Clone it](http://gitlab.com/gamemeanmachine/unity-windrose-backpack-plugin).
  - com.gamemeanmachine.unity.windrose-gabtab: [Clone it](http://gitlab.com/gamemeanmachine/unity-windrose-gabtab-plugin).
-
-TO-DO: Versions have to be properly linked even for this type of local downloads.
