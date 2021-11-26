@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Layout.Run
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.GabTab.Runtime", "GameMeanMachine.Unity.WindRose.GabTab.Runtime.csproj", "{04374a59-3214-121c-f094-e35bc6dc98b0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.Biomes.Runtime", "GameMeanMachine.Unity.WindRose.Biomes.Runtime.csproj", "{3f11645a-e199-5fd1-7033-02c28e20920e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.Biomes.Samples", "GameMeanMachine.Unity.WindRose.Biomes.Samples.csproj", "{2aaf3c9d-865c-0576-99da-7e35fe2c12b6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.Editor", "GameMeanMachine.Unity.WindRose.Editor.csproj", "{594f2679-4ed1-4791-033f-026d37a08572}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.BackPack.Editor", "GameMeanMachine.Unity.WindRose.BackPack.Editor.csproj", "{24606a60-5903-5964-c35d-3c39beb11640}"
@@ -81,6 +85,14 @@ Global
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3f11645a-e199-5fd1-7033-02c28e20920e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3f11645a-e199-5fd1-7033-02c28e20920e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3f11645a-e199-5fd1-7033-02c28e20920e}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3f11645a-e199-5fd1-7033-02c28e20920e}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2aaf3c9d-865c-0576-99da-7e35fe2c12b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2aaf3c9d-865c-0576-99da-7e35fe2c12b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2aaf3c9d-865c-0576-99da-7e35fe2c12b6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2aaf3c9d-865c-0576-99da-7e35fe2c12b6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Release|Any CPU.ActiveCfg = Release|Any CPU
