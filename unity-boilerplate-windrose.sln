@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Layout.Run
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.GabTab.Runtime", "GameMeanMachine.Unity.WindRose.GabTab.Runtime.csproj", "{04374a59-3214-121c-f094-e35bc6dc98b0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.NeighbourTeleports", "GameMeanMachine.Unity.WindRose.NeighbourTeleports.csproj", "{04f5c389-cfda-6d3e-645d-61ff01596cca}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.Editor", "GameMeanMachine.Unity.WindRose.Editor.csproj", "{594f2679-4ed1-4791-033f-026d37a08572}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMeanMachine.Unity.WindRose.BackPack.Editor", "GameMeanMachine.Unity.WindRose.BackPack.Editor.csproj", "{24606a60-5903-5964-c35d-3c39beb11640}"
@@ -95,10 +93,6 @@ Global
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04374a59-3214-121c-f094-e35bc6dc98b0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04f5c389-cfda-6d3e-645d-61ff01596cca}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04f5c389-cfda-6d3e-645d-61ff01596cca}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04f5c389-cfda-6d3e-645d-61ff01596cca}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04f5c389-cfda-6d3e-645d-61ff01596cca}.Release|Any CPU.Build.0 = Release|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594f2679-4ed1-4791-033f-026d37a08572}.Release|Any CPU.ActiveCfg = Release|Any CPU
