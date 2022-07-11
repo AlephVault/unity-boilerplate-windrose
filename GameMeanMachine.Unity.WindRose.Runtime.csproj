@@ -52,21 +52,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\LocalTeleporter.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Strategies\Base\LayoutObjectStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\TaggedTeleporter.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\MapObject.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\CommandExchange\CloseCommandSender.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Common\Pausable.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Ceilings\Ceiling.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Scope.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Animations\SpriteRose.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Tiles\BundledTile.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\Moving\MovingSpriteRoseBundle.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Strategies\ObjectStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Solidness\SolidnessObjectsManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Solidness\SolidnessStatus.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\SimpleTeleporter.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Types\Direction.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\CommandExchange\Talk\TalkSender.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\MultiRoseSprited.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Types\Rose.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Ceiling\CeilingLayer.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Strategies\Simple\SimpleObjectStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\MultiSprited.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\TriggerZone.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\AnimationRoseBundle.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Map.cs" />
@@ -74,7 +80,7 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\TriggerLive.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\Animated.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Strategies\Solidness\SolidnessObjectStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\TeleportTarget.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\SimpleTeleportTarget.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Animations\AnimationRose.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\MultiAnimated.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Animations\Animation.cs" />
@@ -84,12 +90,15 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\Moving\MovingAnimationRoseBundle.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Ceilings\Local\LocallyTriggeredCeiling.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Base\LayoutObjectsManagementStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Base\BlockType.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\SpriteBundle.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\ObjectsManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\Moving\MovingAnimationBundle.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\StateBundles\SpriteRoseBundle.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Simple\SimpleObjectsManagementStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\RoseAnimated.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\MultiSprite.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\Teleport\TaggedTeleportTarget.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Base\BlockMode.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\MultiRoseAnimated.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Solidness\StepType.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\VisualBehaviour.cs" />
@@ -110,9 +119,11 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\TriggerPlatform.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\CommandExchange\Talk\TalkReceiver.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\ObjectStrategyHolder.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Types\State.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Tiles\Strategies\Base\LayoutTileStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Objects\TriggerVisionRange.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\ScriptableObjects\Tiles\Strategies\TileStrategy.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Entities\Visuals\RoseSprited.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\Floors\Floor.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Solidness\SolidMask.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-windrose\Runtime\GameMeanMachine.Unity.WindRose.Runtime.asmdef" />
@@ -337,9 +348,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>

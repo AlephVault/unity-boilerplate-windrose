@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}</ProjectGuid>
+    <ProjectGuid>{0e9b558c-f501-a09f-4a42-972e696d04c1}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Support.Generic.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.SpriteUtils.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,18 +52,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\ICopy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\IUnifiedContainers.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Random.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\OrderedSet.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Copier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Dictionary.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\IUnifiedContainer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Behaviours\SingletonBehaviour.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Cyclic.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\AlephVault.Unity.Support.Generic.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Samples\Scripts\SampleSpriteGridFactory.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Samples\Scripts\SampleSpriteGridSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Samples\Scripts\SampleSpriteGridSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Samples\Scripts\SampleSpriteGridSelectionAssigner.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Samples\AlephVault.Unity.SpriteUtils.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -657,9 +650,9 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{6d50c1ea-9a3a-43c1-46c6-c23b98849279}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.SpriteUtils.Runtime.csproj">
+      <Project>{1f36970a-dddb-3ae8-a534-8065da6b17d9}</Project>
+      <Name>AlephVault.Unity.SpriteUtils.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

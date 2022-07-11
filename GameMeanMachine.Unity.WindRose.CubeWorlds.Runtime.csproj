@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}</ProjectGuid>
+    <ProjectGuid>{46ab5457-531f-43b3-8a4c-f0f5c13067be}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Support.Generic.Runtime</AssemblyName>
+    <AssemblyName>GameMeanMachine.Unity.WindRose.CubeWorlds.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,18 +52,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\ICopy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\IUnifiedContainers.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Random.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\OrderedSet.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Copier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Dictionary.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Vendor\IUnified\Authoring\Types\IUnifiedContainer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Behaviours\SingletonBehaviour.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Cyclic.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\AlephVault.Unity.Support.Generic.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Types\FaceOrientation.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Types\FaceType.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Authoring\Behaviours\Watch\CubeWatcher.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Authoring\Behaviours\Entities\CubeFollowed.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Authoring\Behaviours\World\CubeFace.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\Authoring\Behaviours\World\CubeLayout.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-cubeworlds\Runtime\GameMeanMachine.Unity.WindRose.CubeWorlds.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -657,6 +652,22 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
+      <Project>{6802bd78-939d-29c3-1be2-097e1e4fd3a2}</Project>
+      <Name>AlephVault.Unity.Layout.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
+      <Project>{78415b5d-f2f4-47e2-54b3-8101bfaae53b}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.NeighbourTeleports.Runtime.csproj">
+      <Project>{1e69e3d4-c4df-25c0-6dd0-c611c654c1e5}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.NeighbourTeleports.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
+      <Project>{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}</Project>
+      <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
       <Project>{6d50c1ea-9a3a-43c1-46c6-c23b98849279}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>

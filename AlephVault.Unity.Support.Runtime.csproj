@@ -60,8 +60,10 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Utils\Values.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Authoring\Behaviours\Normalized.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Types\Sampling\RandomVector3.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Types\Layer.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Authoring\Behaviours\Async\AsyncQueueManager.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Utils\Tasks.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Types\Async\AsyncOperationExtensionMethods.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Utils\XDebug.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\Types\Exception.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-support\Runtime\AlephVault.Unity.Support.Runtime.asmdef" />
@@ -286,9 +288,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
