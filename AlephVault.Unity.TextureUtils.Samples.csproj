@@ -52,8 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\Scripts\SampleBlitSprite.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\Scripts\SampleTextureAssigner.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\Scripts\SampleBlitSprite.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\AlephVault.Unity.TextureUtils.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

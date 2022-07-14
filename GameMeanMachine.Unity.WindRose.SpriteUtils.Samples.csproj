@@ -52,13 +52,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\RoseSpritedAltState.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SpritedAltState.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SampleRotate.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SampleMultiSelectionsAssigner.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\AnimatedAltState.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\RoseAnimatedAltState.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SampleMultiSelectionsAssigner.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SampleSwitchState.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SampleRotate.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\SpritedAltState.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\RoseSpritedAltState.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\Scripts\RoseAnimatedAltState.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Samples\GameMeanMachine.Unity.WindRose.SpriteUtils.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

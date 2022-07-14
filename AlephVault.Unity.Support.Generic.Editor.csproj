@@ -658,11 +658,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-windrose/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

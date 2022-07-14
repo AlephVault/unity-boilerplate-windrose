@@ -87,8 +87,8 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\UsageStrategies\ItemUsageStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Standard\RenderingListener.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\QuantifyingStrategies\StackFloatQuantifyingStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireUsageStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewNextButton.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\ScriptableObjects\Inventory\Items\RequireUsageStrategy.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryViewItem.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Authoring\Behaviours\UI\Inventory\Basic\BasicStandardInventoryView.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-backpack\Runtime\Types\Inventory\Stacks\Stack.cs" />
