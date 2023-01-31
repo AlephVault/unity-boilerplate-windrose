@@ -12,25 +12,26 @@ Dependencies versioning and status
 
 So far this project relies on a set of packages that I could consider, at best, in beta status. These packages are not officially released and they are tagged 0.0.1 or alike (mostly in experimental status). The referenced packages must be cloned individually besides this boilerplate (i.e. as a sibling directory). They are:
 
- - com.alephvault.unity.support: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support).
- - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic).
- - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout).
- - com.alephvault.unity.menuactions: [Clone it - 0.0.1](https://github.com/AlephVault/unity-menu-actions).
- - com.alephvault.unity.camjam: [Clone it - 0.0.1](https://github.com/AlephVault/unity-camjam).
- - com.alephvault.unity.soundaround: [Clone it - 0.0.1](https://github.com/AlephVault/unity-soundaround).
- - com.alephvault.unity.spriteutils: [Clone it - 0.0.3](https://github.com/AlephVault/unity-spriteutils).
- - com.alephvault.unity.textureutils: [Clone it - 0.0.1](https://github.com/AlephVault/unity-textureutils).
- - com.gamemeanmachine.unity.backpack: [Clone it - 0.0.1](http://gitlab.com/gamemeanmachine/unity-backpack).
- - com.gamemeanmachine.unity.gabtab: [Clone it - 0.0.1](http://gitlab.com/gamemeanmachine/unity-gabtab).
- - com.gamemeanmachine.unity.windrose: [Clone it - 0.0.5](https://gitlab.com/gamemeanmachine/unity-windrose).
- - com.gamemeanmachine.unity.windrose.biomes: [Clone it - 0.0.5](https://gitlab.com/gamemeanmachine/unity-windrose).
- - com.gamemeanmachine.unity.windrose-backpack: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-backpack-plugin).
- - com.gamemeanmachine.unity.windrose-gabtab: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-gabtab-plugin).
- - com.gamemeanmachine.unity.windrose.spriteutils: [Clone it - 0.0.3](https://gitlab.com/gamemeanmachine/unity-windrose-spriteutils).
- - com.gamemeanmachine.unity.windrose.neighbourteleports [Clone it - 0.0.2](https://gitlab.com/gamemeanmachine/unity-windrose-neighbourteleports).
- - com.gamemeanmachine.unity.windrose.cubeworlds [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-cubeworlds).
- - com.gamemeanmachine.unity.windrose.refmapchars [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-refmapchars).
- - com.gamemeanmachine.unity.windrose.lpcbiomes [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-lpcbiomes).
+ - com.alephvault.unity.support: [Clone it - 0.0.2](https://github.com/AlephVault/unity-support/tree/0.0.2).
+ - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic/tree/0.0.1).
+ - com.alephvault.unity.boilerplates: [Clone it - 0.0.1](https://github.com/AlephVault/unity-boilerplates/tree/0.0.1).
+ - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout/tree/0.0.1).
+ - com.alephvault.unity.menuactions: [Clone it - 0.0.1](https://github.com/AlephVault/unity-menu-actions/tree/0.0.1).
+ - com.alephvault.unity.camjam: [Clone it - 0.0.1](https://github.com/AlephVault/unity-camjam/tree/0.0.1).
+ - com.alephvault.unity.soundaround: [Clone it - 0.0.1](https://github.com/AlephVault/unity-soundaround/tree/0.0.1).
+ - com.alephvault.unity.spriteutils: [Clone it - 0.0.3](https://github.com/AlephVault/unity-spriteutils/tree/0.0.3).
+ - com.alephvault.unity.textureutils: [Clone it - 0.0.1](https://github.com/AlephVault/unity-textureutils/tree/0.0.1).
+ - com.gamemeanmachine.unity.backpack: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-backpack/-/tree/0.0.1).
+ - com.gamemeanmachine.unity.gabtab: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-gabtab/-/tree/0.0.1).
+ - com.gamemeanmachine.unity.windrose: [Clone it - 0.0.6](https://gitlab.com/gamemeanmachine/unity-windrose/-/tree/0.0.6).
+ - com.gamemeanmachine.unity.windrose.biomes: [Clone it - 0.0.5](https://gitlab.com/gamemeanmachine/unity-windrose-biomes/-/tree/0.0.4).
+ - com.gamemeanmachine.unity.windrose-backpack: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-backpack-plugin/-/tree/0.0.1).
+ - com.gamemeanmachine.unity.windrose-gabtab: [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-gabtab-plugin/-/tree/0.0.1).
+ - com.gamemeanmachine.unity.windrose.spriteutils: [Clone it - 0.0.3](https://gitlab.com/gamemeanmachine/unity-windrose-spriteutils/-/tree/0.0.3).
+ - com.gamemeanmachine.unity.windrose.neighbourteleports [Clone it - 0.0.3](https://gitlab.com/gamemeanmachine/unity-windrose-neighbourteleports/-/tree/0.0.3).
+ - com.gamemeanmachine.unity.windrose.cubeworlds [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-cubeworlds/-/tree/0.0.1).
+ - com.gamemeanmachine.unity.windrose.refmapchars [Clone it - 0.0.2](https://gitlab.com/gamemeanmachine/unity-windrose-refmapchars/-/tree/0.0.2).
+ - com.gamemeanmachine.unity.windrose.lpcbiomes [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-windrose-lpcbiomes/-/0.0.1).
 
 Licenses
 --------
