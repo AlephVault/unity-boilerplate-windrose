@@ -36,12 +36,10 @@ So far this project relies on a set of packages that I could consider, at best, 
 Licenses
 --------
 
-The contents of the Assets/Graphics/Tiles/Biomes belongs mostly to [LPC](http://https://lpc.opengameart.org/) and is distributed with license CC BY-SA 3.0 and GPL 3.0.
+Pay attention to license notices in the readme for the following packages:
 
-Credits must be given, for those assets, to:
+ - com.gamemeanmachine.unity.windrose.lpcbiomes
+ - com.gamemeanmachine.unity.windrose.refmapchars
 
-    Liberated Pixel Cup (LPC) Base Assets 
-    Lanea Zimmerman (Sharm)
-    CC-BY-SA 3.0 / CC-BY 3.0 / GPL 3.0
-    https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+As a general rule of thumb, NEVER use any asset included in any of the Samples/ directory (in any package), since most of them were generated with tools that DO NOT allow free distribution.
 
