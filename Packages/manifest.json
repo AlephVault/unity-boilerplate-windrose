@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.alephvault.unity.boilerplates": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
     "com.alephvault.unity.camjam": "file:../../unity-camjam",
     "com.alephvault.unity.layout": "file:../../unity-layout",
     "com.alephvault.unity.menuactions": "file:../../unity-menu-actions",
