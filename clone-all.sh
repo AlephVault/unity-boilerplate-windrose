@@ -17,6 +17,6 @@ git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-windrose-gabtab-pl
 git clone --branch 0.0.4 git@gitlab.com:gamemeanmachine/unity-windrose-spriteutils.git ../unity-windrose-spriteutils
 git clone --branch 0.0.3 git@gitlab.com:gamemeanmachine/unity-windrose-neighbourteleports.git ../unity-windrose-neighbourteleports
 git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-windrose-cubeworlds.git ../unity-windrose-cubeworlds
-git clone --branch 0.0.3 git@gitlab.com:gamemeanmachine/unity-windrose-refmapchars.git ../unity-windrose-refmapchars
+git clone --branch 0.0.4 git@gitlab.com:gamemeanmachine/unity-windrose-refmapchars.git ../unity-windrose-refmapchars
 git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-windrose-lpcbiomes.git ../unity-windrose-lpcbiomes
 
