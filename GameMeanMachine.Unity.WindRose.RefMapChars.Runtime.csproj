@@ -55,7 +55,7 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\IRefMapSimpleModel.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\RefMapSource.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapBody.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapItemType.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapAddOnType.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\Standard\ArmsTrait.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\Behaviours\RefMapStandardStatueApplier.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\Behaviours\RefMapSimpleStatueApplier.cs" />
@@ -84,11 +84,11 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\IRefMapStandardComposite.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Selectors\RefMapCharacterSelector.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\IApplier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapExtra.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapItem.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapAddOn.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\Simple\ClothTrait.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\HatTrait.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\SimpleTrait.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Authoring\ScriptableObjects\RefMapItemType.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\Standard\ShirtTrait.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\IRefMapBaseComposite.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Runtime\Types\Traits\Standard\ShoulderTrait.cs" />
