@@ -6,12 +6,6 @@
       "source": "local",
       "dependencies": {}
     },
-    "com.alephvault.unity.camjam": {
-      "version": "file:../../unity-camjam",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.alephvault.unity.layout": {
       "version": "file:../../unity-layout",
       "depth": 0,
