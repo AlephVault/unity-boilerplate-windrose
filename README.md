@@ -27,10 +27,10 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.alephvault.unity.windrose-backpack: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-backpack-plugin/tree/0.0.1).
  - com.alephvault.unity.windrose-gabtab: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-gabtab-plugin/tree/0.0.1).
  - com.alephvault.unity.windrose.spriteutils: [Clone it - 0.0.4](https://github.com/AlephVault/unity-windrose-spriteutils/tree/0.0.4).
- - com.alephvault.unity.windrose.neighbourteleports [Clone it - 0.0.3](https://github.com/AlephVault/unity-windrose-neighbourteleports/tree/0.0.3).
- - com.alephvault.unity.windrose.cubeworlds [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-cubeworlds/tree/0.0.1).
- - com.alephvault.unity.windrose.refmapchars [Clone it - 0.0.4](https://github.com/AlephVault/unity-windrose-refmapchars/tree/0.0.4).
- - com.alephvault.unity.windrose.lpcbiomes [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-lpcbiomes/0.0.1).
+ - com.alephvault.unity.windrose.neighbourteleports: [Clone it - 0.0.3](https://github.com/AlephVault/unity-windrose-neighbourteleports/tree/0.0.3).
+ - com.alephvault.unity.windrose.cubeworlds: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-cubeworlds/tree/0.0.1).
+ - com.alephvault.unity.windrose.refmapchars: [Clone it - 0.0.4](https://github.com/AlephVault/unity-windrose-refmapchars/tree/0.0.4).
+ - com.alephvault.unity.windrose.lpcbiomes: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-lpcbiomes/0.0.1).
 
 You can run the attached scripts to clone the dependencies after cloning this project:
 
