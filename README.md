@@ -5,7 +5,7 @@ This is a boilerplate project. It includes WindRose and all the required depende
 Unity version
 -------------
 
-The current status is meant to be used in Unity 2020.3 or better. The upper version is not yet determined, and lower versions are not supported (i.e. it may work, but with no responsibilities from the development side).
+The current status is meant to be used in Unity 2023.1.13f1 or better. The upper version is not yet determined, and lower versions are not supported (i.e. it may work, but with no responsibilities from the development side).
 
 Dependencies versioning and status
 ----------------------------------
@@ -14,18 +14,18 @@ So far this project relies on a set of packages that I could consider, at best, 
 
  - com.alephvault.unity.support: [Clone it - 0.0.3](https://github.com/AlephVault/unity-support/tree/0.0.3).
  - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic/tree/0.0.1).
- - com.alephvault.unity.boilerplates: [Clone it - 0.0.1](https://github.com/AlephVault/unity-boilerplates/tree/0.0.1).
+ - com.alephvault.unity.boilerplates: [Clone it - 0.0.2](https://github.com/AlephVault/unity-boilerplates/tree/0.0.2).
  - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout/tree/0.0.1).
- - com.alephvault.unity.menuactions: [Clone it - 0.0.1](https://github.com/AlephVault/unity-menu-actions/tree/0.0.1).
+ - com.alephvault.unity.menuactions: [Clone it - 0.0.2](https://github.com/AlephVault/unity-menu-actions/tree/0.0.2).
  - com.alephvault.unity.soundaround: [Clone it - 0.0.1](https://github.com/AlephVault/unity-soundaround/tree/0.0.1).
  - com.alephvault.unity.spriteutils: [Clone it - 0.0.4](https://github.com/AlephVault/unity-spriteutils/tree/0.0.4).
  - com.alephvault.unity.textureutils: [Clone it - 0.0.1](https://github.com/AlephVault/unity-textureutils/tree/0.0.1).
- - com.alephvault.unity.backpack: [Clone it - 0.0.1](https://github.com/AlephVault/unity-backpack/tree/0.0.1).
- - com.alephvault.unity.gabtab: [Clone it - 0.0.1](https://github.com/AlephVault/unity-gabtab/tree/0.0.1).
- - com.alephvault.unity.windrose: [Clone it - 0.0.7](https://github.com/AlephVault/unity-windrose/tree/0.0.7).
+ - com.alephvault.unity.backpack: [Clone it - 0.0.2](https://github.com/AlephVault/unity-backpack/tree/0.0.2).
+ - com.alephvault.unity.gabtab: [Clone it - 0.0.2](https://github.com/AlephVault/unity-gabtab/tree/0.0.2).
+ - com.alephvault.unity.windrose: [Clone it - 0.0.8](https://github.com/AlephVault/unity-windrose/tree/0.0.8).
  - com.alephvault.unity.windrose.biomes: [Clone it - 0.0.4](https://github.com/AlephVault/unity-windrose-biomes/tree/0.0.4).
- - com.alephvault.unity.windrose-backpack: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-backpack-plugin/tree/0.0.1).
- - com.alephvault.unity.windrose-gabtab: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-gabtab-plugin/tree/0.0.1).
+ - com.alephvault.unity.windrose-backpack: [Clone it - 0.0.2](https://github.com/AlephVault/unity-windrose-backpack-plugin/tree/0.0.2).
+ - com.alephvault.unity.windrose-gabtab: [Clone it - 0.0.2](https://github.com/AlephVault/unity-windrose-gabtab-plugin/tree/0.0.2).
  - com.alephvault.unity.windrose.spriteutils: [Clone it - 0.0.4](https://github.com/AlephVault/unity-windrose-spriteutils/tree/0.0.4).
  - com.alephvault.unity.windrose.neighbourteleports: [Clone it - 0.0.3](https://github.com/AlephVault/unity-windrose-neighbourteleports/tree/0.0.3).
  - com.alephvault.unity.windrose.cubeworlds: [Clone it - 0.0.1](https://github.com/AlephVault/unity-windrose-cubeworlds/tree/0.0.1).
