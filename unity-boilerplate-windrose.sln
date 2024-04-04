@@ -5,9 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.BackPack.Runtime", "AlephVault.Unity.BackPack.Runtime.csproj", "{15a8dc6b-d8c4-0e86-b8af-2b1dbf68be3f}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Support.Runtime", "AlephVault.Unity.Support.Runtime.csproj", "{6d50c1ea-9a3a-43c1-46c6-c23b98849279}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Boilerplates.Editor", "AlephVault.Unity.Boilerplates.Editor.csproj", "{935f321e-2f01-b627-ca84-3817ffae0416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Support.Runtime", "AlephVault.Unity.Support.Runtime.csproj", "{6d50c1ea-9a3a-43c1-46c6-c23b98849279}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.Editor", "AlephVault.Unity.WindRose.Editor.csproj", "{70e011b2-77e9-4e1c-c7d8-93a872464497}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Support.Generic.Runtime", "AlephVault.Unity.Support.Generic.Runtime.csproj", "{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}"
 EndProject
@@ -22,8 +24,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.CubeWorlds.Runtime", "AlephVault.Unity.WindRose.CubeWorlds.Runtime.csproj", "{47bb5c97-0598-2038-7fcf-eda250f68b18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.BackPack.Editor", "AlephVault.Unity.WindRose.BackPack.Editor.csproj", "{038480ab-5843-6696-47af-62e0a94284ea}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.Editor", "AlephVault.Unity.WindRose.Editor.csproj", "{70e011b2-77e9-4e1c-c7d8-93a872464497}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.WindRose.SpriteUtils.Runtime", "AlephVault.Unity.WindRose.SpriteUtils.Runtime.csproj", "{3f7263ab-23ca-7664-e6d7-e05836b99616}"
 EndProject
@@ -78,10 +78,12 @@ Global
 		{d3971849-182e-2742-0493-ed00024504ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15a8dc6b-d8c4-0e86-b8af-2b1dbf68be3f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15a8dc6b-d8c4-0e86-b8af-2b1dbf68be3f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{935f321e-2f01-b627-ca84-3817ffae0416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{935f321e-2f01-b627-ca84-3817ffae0416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6d50c1ea-9a3a-43c1-46c6-c23b98849279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6d50c1ea-9a3a-43c1-46c6-c23b98849279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935f321e-2f01-b627-ca84-3817ffae0416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935f321e-2f01-b627-ca84-3817ffae0416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70e011b2-77e9-4e1c-c7d8-93a872464497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70e011b2-77e9-4e1c-c7d8-93a872464497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{bfd9771c-edb1-afae-aa9c-89cdb1abfbfa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773fbbeb-143c-3e81-6bf0-234e0b8c54e2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -96,8 +98,6 @@ Global
 		{47bb5c97-0598-2038-7fcf-eda250f68b18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{038480ab-5843-6696-47af-62e0a94284ea}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{038480ab-5843-6696-47af-62e0a94284ea}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70e011b2-77e9-4e1c-c7d8-93a872464497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70e011b2-77e9-4e1c-c7d8-93a872464497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3f7263ab-23ca-7664-e6d7-e05836b99616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3f7263ab-23ca-7664-e6d7-e05836b99616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0e9b558c-f501-a09f-4a42-972e696d04c1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
